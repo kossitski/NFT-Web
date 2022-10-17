@@ -1,0 +1,233 @@
+/* ******  HEADER  ****** */
+body{
+    background-color: #0d192c;
+}
+.main-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px auto;
+    margin-bottom: 25px;
+}
+.main-header:after{
+    position: absolute;
+    top: 90px;
+    content: "";
+    width: 91%;
+    height: 2px;
+    opacity: 0.4;
+    background-color: gray;
+}
+.div-head{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 600px;
+        width: 100%;
+        height: 55px;
+        background-color: #15263f;
+        border-radius: 30px;
+        border: 1px solid;
+        margin-top: 10px;
+}
+a{
+    color: aliceblue;
+    font-size: 20px;
+}
+.head-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    border-radius: 30px;
+}
+.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    color: red;
+    border: 1px solid red;
+    transition: all .3s;
+}
+.active:hover{
+    background-color: red;
+    color: white;
+}
+.collec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: all .3s;
+}
+.collec:hover{
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+}
+
+.purch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: all .3s;
+}
+.purch:hover{
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: all .3s;
+}
+.cart:hover{
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+}
+.shako{
+    margin-right: 0px;
+}
+img{
+    width: 35px;
+}
+.os{
+    margin-right: 10px;
+}
+.img-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    width: 150px;
+    height: 55px;
+    border-radius: 30px;
+    margin-top: 10px;
+    background-color: #15263f;
+    transition: all .3s;
+}
+.img-a:hover{
+    background-color: red;
+    color: lightblue;
+}
+.valka{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    width: 150px;
+    height: 55px;
+    border-radius: 30px;
+    margin-top: 10px;
+    background-color: #15263f;
+    transition: all .3s;
+}
+.valka:hover{
+    background-color: red;
+}
+
+
+/* ****** SECTION ******* */
+
+.pos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    margin-top: 10%;
+}
+.morenaga{
+    width: 700px;
+    height: 400px;
+    background-image: url(../images/Capture3.PNG);
+    background-size: cover;
+    border: 3px solid red;
+    border-radius: 30px;
+    z-index: 5;
+}
+
+.rozha{
+    margin-right: -2%;
+    width: 250px;
+    height: 400px;
+    background-image: url(../images/Capture00.PNG);
+    background-size: 100%;
+    border: 3px solid red;
+    transition: all .7s ease;
+    border-radius: 30px;
+    z-index: 1;
+}
+.rozha:hover{
+    background-size: 120%;
+}
+.nftc{
+    margin-left: -2%;
+    width: 250px;
+    height: 400px;
+    background-image: url(../images/Capture01.PNG);
+    background-size: 100%;
+    border: 3px solid red;
+    transition: all .7s ease;
+    border-radius: 30px;
+}
+.nftc:hover{
+    background-size: 120%;
+}
+.trans{
+    background: linear-gradient(180deg,rgba(218,57,43,0),rgba(218,57,43,0.9));
+    width: 247px;
+    height: 397px;
+    border-radius: 30px;
+    transition: all .4s ease;
+}
+span{
+    color: white;
+    size: 20px;
+    padding-bottom: -100%;
+}
+
+.trans:hover{
+    background: none;
+    color: transparent;
+}
+.byu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 397px;
+    width: 247px;
+    opacity: 0;
+    transition: all .4s;
+}
+.byu:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 397px;
+    width: 247px;
+    opacity: 1 !important;
+}
+.a-buy{
+    background-color: rgb(32, 129, 226);
+    border: 2px solid rgb(32, 129, 226);
+    padding: 10px;
+    border-radius: 10px;
+}
+.a-buy:hover{
+    background-color: rgb(46, 142, 238);
+}
+
+
